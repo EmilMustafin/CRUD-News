@@ -1,0 +1,13 @@
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  font-family: Nyght-Serif, serif;
+  font-weight: 400;
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,28 @@
+.homePageContainer {
+  max-width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+
+.header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.introText {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}

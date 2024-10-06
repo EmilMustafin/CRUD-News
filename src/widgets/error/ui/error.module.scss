@@ -1,0 +1,30 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+
+  &__title {
+    padding: 25px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 25%;
+  }
+
+  &__text {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &_link {
+    color: blue;
+    cursor: pointer;
+  }
+
+  &_link:hover {
+    color: #c4c4c4;
+    text-decoration: underline;
+  }
+}

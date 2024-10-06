@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Nyght-Serif;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('NyghtSerif-Regular'),
+    url('../../shared/assets/fonts/NyghtSerif-Regular.woff2') format('woff2'),
+    url('../../shared/assets/fonts/NyghtSerif-Regular.woff') format('woff'),
+    url('../../shared/assets/fonts/NyghtSerif-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nyght-Serif;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('NyghtSerif-Medium'),
+    url('../../shared/assets/fonts/NyghtSerif-Medium.woff2') format('woff2'),
+    url('../../shared/assets/fonts/NyghtSerif-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nyght-Serif;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('NyghtSerif-Dark'),
+    url('../../shared/assets/fonts/NyghtSerif-Dark.woff2') format('woff2'),
+    url('../../shared/assets/fonts/NyghtSerif-Dark.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nyght-Serif;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('NyghtSerif-Bold'),
+    url('../../shared/assets/fonts/NyghtSerif-Bold.woff2') format('woff2'),
+    url('../../shared/assets/fonts/NyghtSerif-Bold.ttf') format('truetype');
+  font-display: swap;
+}

@@ -1,0 +1,96 @@
+.addButton {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background-color: #66afe9; // Soft blue
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+
+  @media (width >= 768px) {
+    flex-flow: row wrap;
+  }
+}
+
+.item {
+  display: flex;
+  flex: 1 1 calc(100% - 1rem);
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  @media (width >= 768px) {
+    flex: 1 1 calc(30% - 1rem);
+  }
+}
+
+.label {
+  font-weight: 700;
+}
+
+.name,
+.role,
+.tag,
+.author,
+.content,
+.date {
+  margin: 0.5rem 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.author {
+  display: inline;
+}
+
+.content {
+  padding: 0.5rem;
+  line-height: 20px;
+  border: 1px solid #918a8a;
+  border-radius: 5px;
+}
+
+.buttons {
+  align-self: flex-end;
+}
+
+.editButton,
+.deleteButton {
+  padding: 0.6rem 2rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+
+  &.editButton {
+    color: white;
+    background-color: #f0ad4e;
+
+    &:hover {
+      background-color: #ec971f;
+    }
+  }
+
+  &.deleteButton {
+    color: white;
+    background-color: #d9534f;
+
+    &:hover {
+      background-color: #c9302c;
+    }
+  }
+}
