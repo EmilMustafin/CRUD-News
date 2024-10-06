@@ -2,6 +2,5 @@
 
 - npm install
 - npm run dev
-  <br/>
-  Для запуска тестов:
-- npm run test
+  
+
